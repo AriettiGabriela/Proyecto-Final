@@ -1,0 +1,22 @@
+/*MEDIA QUERIES*/
+@media (max-width:800px) {
+  body{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-color: #162f49;
+  }
+}
+
+/*ESTILOS COMUNES*/
+* { box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+  background-color: #162f49;
+  font-family: 'Arial Narrow Bold',Arial , sans-serif;
+  font-size: 16px;
+}
