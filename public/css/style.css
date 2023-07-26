@@ -345,3 +345,54 @@ div#select100.col h2{
 div#biguafem.col h2{
   margin: 10px 0px;
 }
+
+/*ESTILOS SPONSORS*/
+div#sponsors.col-12.text-center{
+  padding: 0px 80px;
+}
+
+#sponsors h2 {
+  background-color: #832922;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 0px;
+  font-size: 2rem
+}
+div#imgsponsors.row.mt-3{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 80px;
+}
+div#imgsponsors.row.mt-3 img{
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+div#imgsponsors.row.mt-3 a:hover{
+  transform: scale(1.1);
+  transition: all 500ms;
+}
+div#imgsponsors.row.mt-3 div.col{
+  display: flex;
+  justify-content: center;
+}
+/*ESTILOS FOOTER*/
+.logofoot {
+  width: 50px;
+  margin: 0px 15px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center
+}
+.footer p{
+  align-self: center;
+  color: #fff;
+  margin: 0px;
+}
+li.ms-3 img{
+  width: 35px;
+  margin: 0px;
+}
