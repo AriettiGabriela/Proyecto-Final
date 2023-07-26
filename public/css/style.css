@@ -53,8 +53,8 @@ nav.fold{
   justify-content: center;
   background-color: #832922;
   color: #fff;
-  padding: 14px 50px;
-  margin:5px;
+  padding: 10px 40px;
+  margin:10px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1em;
@@ -63,7 +63,7 @@ nav.fold{
   background-color: #fff;
   color: #832922;
   border-radius: 10px;
-  transform: scale(1.1);
+  transform: scale(1.2);
   transition: all 500ms;
 }
 .fold summary:hover {
@@ -74,9 +74,12 @@ nav.fold{
   transition: all 500ms;
 }
 #actual{
+  display: flex;
+  justify-content: center;
   background-color: #355ca3;
   color: #ffffff;
   border-radius: 10px;
+  padding: 10px 0px;
 }
 }
 
@@ -186,5 +189,6 @@ nav a:hover{
   background-color: #355ca3;
   color: #ffffff;
   border-radius: 10px;
+  transform: scale(1.3);
 }
 
