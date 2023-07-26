@@ -90,6 +90,7 @@ div#bloque.container-fluid.mt-4 {
 }
 }
 
+
 /*DESKTOP*/
 @media (min-width:900px) {
   body{
@@ -160,6 +161,26 @@ img#fotonoticia3.img-fluid {
   border-radius: 0px 10px 10px 0px;
   object-fit: cover;
 }
+/*ESTILO DONACIONES*/
+section.donaciones {
+  padding: 3vh 5vw;
+}
+section.donaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-body {
+  text-align: center;
+}
+.linkdonar {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0px 15px 20px 15px;
+}
+a.btn.btn-outline-secondary:hover {
+  background-color: #355ca3;
+}
 }
 
 /*NOTICIAS*/
@@ -172,7 +193,7 @@ img#fotonoticia3.img-fluid {
   section.noticias p{
     font-size: 1em;
   }
-  div#resultados.col {
+  div#noti1.col {
     border-radius: 10px 10px 0px 0px;
     padding: 25px;
   }
@@ -188,10 +209,10 @@ img#fotonoticia3.img-fluid {
     border-radius: 0px 0px 10px 10px;
     object-fit: cover;
   }
-  article.select100 {
+  article.noticia2 {
     padding: 0px 6vw;
   }
-  div#select100.col.order-lg-2 {
+  div#noti2.col.order-lg-2 {
     border-radius: 10px 10px 0px 0px;
     padding: 25px;
   }
@@ -214,7 +235,16 @@ img#fotonoticia3.img-fluid {
     border-radius: 0px 0px 10px 10px;
     object-fit: cover;
   }
+  section.donaciones {
+    display: none;
+  }
 }
+@media (min-width:990px){
+  section.donacionessm {
+    display: none;
+  }
+}
+
 /*ESTILOS COMUNES*/
 * { box-sizing: border-box;
 }
@@ -313,24 +343,24 @@ span.carousel-control-next-icon{
 .noticia1 {
   padding: 0px 5.5vw;
 }
-#resultados {
+#noti1 {
   background-color: #fff;
   border-radius: 10px 0px 0px 10px;
   padding: 15px;
 }
-div#resultados.col h2{
+div#noti1.col h2{
   margin: 10px 0px;
 }
-/*NOTICIA SELECT100*/
-.select100 {
+/*NOTICIA 2*/
+.noticia2 {
   padding: 0px 5.5vw;
 }
-#select100 {
+#noti2 {
   background-color: #fff;
   border-radius: 0px 10px 10px 0px;
   padding: 15px;
 }
-div#select100.col h2{
+div#noti2.col h2{
   margin: 10px 0px;
 }
 /*NOTICIA BIGUAFEM*/
@@ -350,7 +380,6 @@ div#biguafem.col h2{
 div#sponsors.col-12.text-center{
   padding: 0px 80px;
 }
-
 #sponsors h2 {
   background-color: #832922;
   color: #fff;
