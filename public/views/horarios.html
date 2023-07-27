@@ -1,71 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Arietti Gabriela">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
-    <title>Biguá Rugby Club</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Arietti Gabriela">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+  <title>Biguá Rugby Club</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
-    <!--HEADER-->
-    <header>
-        <h1 class="title">-BIENVENIDOS A BIGUÁ-</h1>
-        <div class="portada">
-            <div class="banner">
-                <img id="union" src="../img/banner.png"
-                    alt="Jugadores de rugby abrazados con la leyenda'La unión hace la fuerza'">
-                <img id="triptico" src="../img/triptico.png"
-                    alt="Jugadoras de hockey y jugadores de rugby abrazados con la leyenda 'La unión hace la fuerza'">
-            </div>
-            <div class="logo"><img id="bigua" src="../img/logo.png" alt="Logo del club Biguá"></div>
-        </div>
-    </header>
-    <!--NAVBAR-->
-    <nav class="line">
-        <a href="../../index.html">INICIO</a>
+  <!--HEADER-->
+  <header>
+    <h1 class="title">-BIENVENIDOS A BIGUÁ-</h1>
+    <div class="portada">
+      <div class="banner">
+        <img id="union" src="../img/banner.png"
+          alt="Jugadores de rugby abrazados con la leyenda'La unión hace la fuerza'">
+        <img id="triptico" src="../img/triptico.png"
+          alt="Jugadoras de hockey y jugadores de rugby abrazados con la leyenda 'La unión hace la fuerza'">
+      </div>
+      <div class="logo"><img id="bigua" src="../img/logo.png" alt="Logo del club Biguá"></div>
+    </div>
+  </header>
+  <!--NAVBAR-->
+  <nav class="line">
+    <a href="../../index.html">INICIO</a>
+    <a href="../views/club.html">EL CLUB</a>
+    <a href="../views/horarios.html" id="actual">JUGÁ EN BIGUÁ</a>
+    <a href="../views/partidos.html">MIRÁ LOS PARTIDOS</a>
+    <a href="../views/socios.html">SOCIOS</a>
+  </nav>
+  <nav class="fold">
+    <span style="cursor: pointer">
+      <details>
+        <summary class="menufold">▼MENU</summary>
+        <a href="index.html">INICIO</a>
         <a href="../views/club.html">EL CLUB</a>
         <a href="../views/horarios.html" id="actual">JUGÁ EN BIGUÁ</a>
         <a href="../views/partidos.html">MIRÁ LOS PARTIDOS</a>
         <a href="../views/socios.html">SOCIOS</a>
-    </nav>
-    <nav class="fold">
-        <span style="cursor: pointer">
-            <details>
-                <summary class="menufold">▼MENU</summary>
-                <a href="index.html">INICIO</a>
-                <a href="../views/club.html">EL CLUB</a>
-                <a href="../views/horarios.html" id="actual">JUGÁ EN BIGUÁ</a>
-                <a href="../views/partidos.html">MIRÁ LOS PARTIDOS</a>
-                <a href="../views/socios.html">SOCIOS</a>
-            </details>
-        </span>
-    </nav>
-    <!--FOOTER-->
-    <div class="container">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="ms-3"><a href="https://www.instagram.com/biguarugbyclubok/" target="_blank"
-                        class="text-body-secondary"><img src="../img/instagramlogo.png" alt="Logo de Instagram"></a>
-                </li>
-                <li class="ms-3"><a href="https://www.facebook.com/biguarugbyclubmardelplata" target="_blank"
-                        class="text-body-secondary"><img src="../img/facebooklogo.png" alt="Logo de Facebook"></a>
-                </li>
-                <li class="ms-3"><a href="https://www.youtube.com/@biguarugbyclub4594" target="_blank"
-                        class="text-body-secondary"><img src="../img/youtubelogo.png" alt="Logo de YouTube"></a>
-                </li>
-            </ul>
-            <div class=footer>
-                <img class="logofoot" src="../img/bigualogofooter.png" alt="Logo de bigua rugby club">
-                <p>Desde 1951 - Fundadores de la Union de Rugby MDP</p>
-            </div>
-        </footer>
-    </div>
-    <!--SCRIP BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+      </details>
+    </span>
+  </nav>
+  <!--BANNER ENTRENAMIENTOS-->
+  <section class="bannerhorarios">
+    <div class="foto"><a class="linkhorario" href="#horariosinfantiles">
+        <div id="infantiles"></div>
+      </a></div>
+    <div class="foto"><a class="linkhorario" href="#horariosjuveniles">
+        <div id="juveniles"></div>
+      </a></div>
+    <div class="foto"><a class="linkhorario" href="#horariosrugbyfem">
+        <div id="rugbyfem"></div>
+      </a></div>
+    <div class="foto"><a class="linkhorario" href="#horarioshockeyjr">
+        <div id="hockeyjr"></div>
+      </a></div>
+    <div class="foto"><a class="linkhorario" href="#horarioshockey">
+        <div id="hockey"></div>
+      </a></div>
+  </section>
+  <!--HORARIOS ENTRENAMIENTOS-->
+  <a name="horariosinfantiles"><br></a>
+  <section class="info">
+    <h3>RUGBY INFANTIL</h3>
+    <p>Martes y Jueves</p>
+    <p><strong>M-6 A M-9</strong> 18:30 a 19:30 hs</p>
+    <p><strong>M-10 A M-13</strong> 18:30 a 20:00 hs</p>
+    <p>Los sábados <strong>todas las divisiones</strong> de 10:00 a 12:00 hs</p>
+    <p><strong>+ Info:</strong>Juan Cayssials (coordinador) 2235 251318</p>
+    <a href="https://wa.me/2235251318" target="_blank"><img src="../img/whatsapp.png" alt=""></a>
+  </section>
+
+  <a name="horariosjuveniles"><br></a>
+  <section class="info">
+    <h3>RUGBY JUVENIL</h3>
+    <p>Martes y Jueves</p>
+    <p><strong>M-14 A M-17</strong> 18:30 a 20:30 hs</p>
+    <p>Sábados de 10:30 a 12:30 hs</p>
+    <p><strong>+ Info:</strong>Juan Manuel Luna (coordinador) 2234 225807</p>
+    <a href="https://wa.me/2234225807" target="_blank"><img src="../img/whatsapp.png" alt=""></a>
+  </section>
+
+  <a name="horariosrugbyfem"><br></a>
+  <section class="info">
+    <h3>RUGBY FEMENINO</h3>
+    <p>Lunes, Martes y Jueves</p>
+    <p>de 18:30 a 20:30 hs</p>
+    <p><strong>+ Info:</strong>Keila Aguilar (coordinadora) 11 36711474</p>
+    <a href="https://wa.me/1136711474" target="_blank"><img src="../img/whatsapp.png" alt=""></a>
+  </section>
+
+  <a name="horarioshockeyjr"><br></a>
+  <section class="info">
+    <h3>HOCKEY INFANTIL</h3>
+    <p>Martes y Jueves</p>
+    <p><strong>6 a 12 años</strong> 18:00 a 19:00 hs</p>
+    <p>Sábados de 09:00 a 10:30 hs</p>
+    <p><strong>+ Info:</strong>Felicitas Pedrosa (coordinadora) 2236 165668</p>
+    <a href="https://wa.me/2236165668" target="_blank"><img src="../img/whatsapp.png" alt=""></a>
+  </section>
+
+  <a name="horarioshockey"><br></a>
+  <section class="info">
+    <h3>HOCKEY JUVENIL</h3>
+    <p>Lunes, Martes y Jueves</p>
+    <p><strong>13 y 14 años</strong> 19:00 a 21:00 hs</p>
+    <p><strong>15 y 16 años</strong> 19:00 a 21:00 hs</p>
+    <p><strong>+ Info:</strong>Felicitas Pedrosa (coordinadora) 2236 165668</p>
+    <a href="https://wa.me/2236165668" target="_blank"><img src="../img/whatsapp.png" alt=""></a>
+  </section>
+
+  <!--FOOTER-->
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="ms-3"><a href="https://www.instagram.com/biguarugbyclubok/" target="_blank"
+            class="text-body-secondary"><img src="../img/instagramlogo.png" alt="Logo de Instagram"></a>
+        </li>
+        <li class="ms-3"><a href="https://www.facebook.com/biguarugbyclubmardelplata" target="_blank"
+            class="text-body-secondary"><img src="../img/facebooklogo.png" alt="Logo de Facebook"></a>
+        </li>
+        <li class="ms-3"><a href="https://www.youtube.com/@biguarugbyclub4594" target="_blank"
+            class="text-body-secondary"><img src="../img/youtubelogo.png" alt="Logo de YouTube"></a>
+        </li>
+      </ul>
+      <div class=footer>
+        <img class="logofoot" src="../img/bigualogofooter.png" alt="Logo de bigua rugby club">
+        <p>Desde 1951 - Fundadores de la Union de Rugby MDP</p>
+      </div>
+    </footer>
+  </div>
+  <!--SCRIP BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
