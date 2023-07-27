@@ -520,3 +520,47 @@ a.btn.btn-outline-secondary:hover {
   transform: scale(1.3);
   opacity: 1;
 }
+/*ESTILOS PARTIDOS*/
+.videocont{
+  padding: 5vh 5vw;
+  display: flex;
+  justify-content: center;
+  height: 55vw;
+}
+.videocont iframe{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+/*ESTILOS SUSCRIBE CANAL*/
+.subscribe{
+  background-color: #832922;
+  padding: 15px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+.subscribe a{
+  width: 35%;
+  height: 124px;
+}
+.subscribe img{
+  width: 100%;
+}
+
+.subscribe img:hover{
+transform: scale(1.2);
+transition: all 500ms;
+}
+/*ESTILOS LOGIN*/
+.formulario{
+  background-color: #ffffffcf;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
