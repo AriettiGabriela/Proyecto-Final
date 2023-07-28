@@ -45,15 +45,32 @@
         </span>
     </nav>
     <!--INICIO DE SESION-->
-    <form class="formulario">
-        <label for="dni">USUARIO</label>
-        <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su DNI">
+    <main class="form-signin w-100 m-auto mt-5">
+        <form action="../views/loginuser.html">
+            <h1 class="h3 mb-3 fw-bolder">ACCEDÉ A TU PANEL</h1>
 
-        <label for="pass">CONTRASEÑA</label>
-        <input type="password" name="pass" id="pass" required>
+            <div class="form-floating">
+                <input required type="number" class="form-control mt-4" id="floatingInput"
+                    placeholder="Ingresa tu DNI sin puntos ni espacios">
+                <label for="floatingInput">Número de documento</label>
+            </div>
+            <div class="form-floating">
+                <input required type="password" class="form-control mt-3" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Contraseña</label>
+            </div>
 
-        <input href="../views/loginuser.html" type="submit" id="submit">
-    </form>
+            <div class="form-check text-start my-3">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Recordarme
+                </label>
+            </div>
+            <button class="btn btn-primary w-100 py-2" type="submit">Inciar
+                sesión</button>
+            <p class="mt-5 mb-3 text-body-secondary">© 1951–2023</p>
+        </form>
+
+    </main>
     <!--FOOTER-->
     <div class="container">
         <footer class="py-3 my-4">
