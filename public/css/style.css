@@ -88,6 +88,18 @@ nav.fold{
 div#bloque.container-fluid.mt-4 {
   padding: 0px 5vw;
 }
+/*SUSCRIBE*/
+.subscribe a{
+  align-self: center;
+  height: 12vh;
+}
+.subscribe img{
+  height: 12vh;
+}
+.subscribe img:hover{
+  transform: scale(1.1);
+  transition: all 500ms;
+  }
 }
 
 
@@ -135,6 +147,20 @@ div#bloque.container-fluid.mt-4 {
 div#bloque.container-fluid.mt-4 {
   padding: 0px 5vw;
 }
+/*SUSCRIBE*/
+.subscribe a{
+  align-self: center;
+  height: 15vh;
+}
+.subscribe img{
+  height: 15vh;
+}
+
+.subscribe img:hover{
+transform: scale(1.2);
+transition: all 500ms;
+}
+
 /*NOTICIAS*/
 div.col-lg-5.col-sm-12 {
   padding: 0;
@@ -159,6 +185,11 @@ div#biguafem.col {
 }
 img#fotonoticia3.img-fluid {
   border-radius: 0px 10px 10px 0px;
+  object-fit: cover;
+}
+video.video {
+  border-radius: 10px 0px 0px 10px;
+  width: 100%;
   object-fit: cover;
 }
 /*ESTILO DONACIONES*/
@@ -232,9 +263,15 @@ section.donaciones {
     border-radius: 0px 0px 10px 10px;
     object-fit: cover;
   }
+  video.video{
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    object-fit: cover;
+  }
   section.donaciones {
     display: none;
   }
+
 }
 @media (min-width:990px){
   section.donacionessm {
@@ -535,24 +572,13 @@ a.btn.btn-outline-secondary:hover {
 /*ESTILOS SUSCRIBE CANAL*/
 .subscribe{
   background-color: #832922;
-  padding: 15px;
+  padding: 3vh 0;
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 220px;
-}
-.subscribe a{
-  width: 35%;
-  height: 124px;
-}
-.subscribe img{
-  width: 100%;
+  height: 25vh;
 }
 
-.subscribe img:hover{
-transform: scale(1.2);
-transition: all 500ms;
-}
 /*ESTILOS LOGIN*/
 .formulario{
   background-color: #ffffffcf;
