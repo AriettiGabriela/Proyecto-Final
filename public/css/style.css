@@ -589,19 +589,68 @@ a.btn.btn-outline-secondary:hover {
   flex-direction: column;
   justify-content: space-evenly;
 }
-/*ESTILO LOGIN BOOTSTRAP*/
+/*ESTILO LOGIN*/
 .form-signin {
   max-width: 400px;
   padding: 1rem;
 }
-
 .w-100 {
   width: 100%!important;
 }
 main.form-signin.w-100.m-auto {
   display:block;
-  background-color: #b5b5b5ae;
+  background-color: #ffffffe2;
   border-radius: 10px;
   padding: 2%;
   text-align: center;
+}
+
+button.btn.btn-primary.w-100.py-2 {
+  background-color: #355ca3;
+  border-color: #162f49;
+}
+
+#pelota:hover {
+  cursor: url(../img/pelotarugby.png), auto;
+}
+/*ESTILO USER*/
+div#familia.col-12.text-center{
+  padding: 3vh 5vw;
+  padding-bottom: 0;
+}
+#familia h2 {
+  background-color: #464646;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 0px;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+div#hijos.row {
+  padding: 0 5vw;
+}
+table.table {
+  margin-bottom: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+
+div#cuotas.accordion {
+  padding: 0;
+}
+button.accordion-button {
+  color:#355ca3;
+  font-weight: bold
+}
+#uno {
+  border-radius: 0px!important;
+}
+.accordion-body{
+  display: flex;
+  justify-content: space-between;
+}
+a.btn.btn-outline-dark:hover {
+  background-color: #355ca3;
+}
+a.btn.btn-secondary {
+  background-color: #808080;
 }
